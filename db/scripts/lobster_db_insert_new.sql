@@ -1,1 +1,1 @@
-insert into lobster values('2021.09.20 19:00:00, 14199, 341);
+insert into lobster values('2021.09.20 19:00:00', 14199, 341);
