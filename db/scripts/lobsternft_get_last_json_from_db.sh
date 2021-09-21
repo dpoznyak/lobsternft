@@ -21,6 +21,5 @@ $(cat <<-END > ./tmp.json
 END
 )
 
-echo ./tmp/json
-# rm -f ./tmp/json
-echo "LAST: $LAST"
+echo ./tmp.json
+rm -f ./tmp.json
