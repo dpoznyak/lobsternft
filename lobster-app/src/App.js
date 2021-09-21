@@ -67,7 +67,7 @@ We start with a list of names and a "secret random" number, which we will only r
 In the end, we will reveal our own "secret random" number, add it to the total provided by the Community, and use the result (after taking the remainder after division by the number of available names) as an index into the list of names to pick the lobster name.
               </p>
               <p className="pt-2">
-                More info on our <a className="text-red-300" href="https://github.com/input-output-hk/lobster-challenge">Github</a>.
+                More info on our <a className="text-red-300" href="https://github.com/input-output-hk/lobster-challenge" target="_blank" rel="noopener noreferrer">Github</a>.
               </p>
             </div>
           </div>
