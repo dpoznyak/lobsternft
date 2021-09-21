@@ -21,5 +21,5 @@ $(cat <<-END > ./tmp.json
 END
 )
 
-echo ./tmp.json
+cat ./tmp.json
 rm -f ./tmp.json
