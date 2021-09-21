@@ -11,7 +11,7 @@ TIME=$(awk -F"!" '{print $2}')
 LOBSTER_COUNTER=$(awk -F"!" '{print $3}')
 LOBSTER_VOTES=$(awk -F"!" '{print $4}')
 
-$(cat <<-END
+$(cat <<-END > ./tmp.json
 {
     "id": "${ID}", 
     "time": "${TIME}", 
@@ -21,4 +21,6 @@ $(cat <<-END
 END
 )
 
+echo ./tmp/json
+# rm -f ./tmp/json
 echo "LAST: $LAST"
