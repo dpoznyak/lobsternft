@@ -1,0 +1,1 @@
+select * from lobster order by id desc limit 1;
