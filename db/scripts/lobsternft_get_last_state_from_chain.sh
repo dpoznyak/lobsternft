@@ -14,5 +14,6 @@ echo "LOBSTER_COUNTER: $LOBSTER_COUNTER"
 echo "LOBSTER_VOTES: $LOBSTER_VOTES"
 
 INS_SQL=$(cat $SQL_DIR/lobster_db_insert_new.sql)
-INS_SQL=$(echo $INS_SQL | sed "s/#TIME/$NOW/g" | sed "s/#LOBSTER_COUNTER/$LOBSTER_COUNTER/g" | sed "s/#LOBSTER_VOTES/$LOBSTER_VOTES/g"  
+echo "INS_SQL: $INS_SQL" 
+INS_SQL=$(echo $INS_SQL | sed "s/#TIME/$NOW/g" | sed "s/#LOBSTER_COUNTER/$LOBSTER_COUNTER/g" | sed "s/#LOBSTER_VOTES/$LOBSTER_VOTES/g")
 echo "INS_SQL: $INS_SQL" 
