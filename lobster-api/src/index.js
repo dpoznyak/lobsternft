@@ -17,9 +17,11 @@ if (config.has("enableCors") && config.get("enableCors")) {
 const HTTP_PORT = process.env.PORT || 8000;
 const NFT_VOTES_TARGET = process.env.NFT_VOTES_TARGET || 500;
 
-app.listen(HTTP_PORT, () => {
-    console.log("Server is listening on port " + HTTP_PORT);
-});
+if (isDev) {
+    app.listen(HTTP_PORT, () => {
+        console.log("Server is listening on port " + HTTP_PORT);
+    });
+}
 
 const db = new sqlite3.Database(dbConfig.path, (err) => {
     if (err) {
@@ -46,3 +48,5 @@ app.get("/voting-status", (req,res,next)=> {
     })
     
 })
+
+module.exports = app;
