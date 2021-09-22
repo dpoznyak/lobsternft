@@ -13,8 +13,8 @@ function App() {
             </div>
             <div className="xl:h-full grid gap-y-8 sm:gap-y-0 sm:gap-x-10 sm:grid-cols-2 mt-32 xl:mt-auto content-center">
               <div className="sm:col-span-1 space-y-3 md:space-y-2 xl:space-y-12">
-                <h1 className="text-4xl sm:text-4xl xl:text-7xl font-semibold">I'm Charles favourite pet and yet without a name</h1>
-                <p className="max-w-sm text-lg md:text-2xl">Please help...!</p>
+                <h1 className="text-4xl sm:text-4xl xl:text-7xl font-semibold">Every lobster should have a name. Would you agree?</h1>
+                <p className="max-w-sm text-lg md:text-2xl">Please help us in giving a name to Charles' crustacean mascot!</p>
                 <div className="space-y-4">
                   {/* <a href="#"><img className="shadow rounded-lg transition duration-200 ease-in-out transform hover:-translate-y-1 hover:shadow-lg" src="assets/img/apple-store-white-button.svg" alt="" /></a>
                   <a href="#"><img className="shadow rounded-lg transition duration-200 ease-in-out transform hover:-translate-y-1 hover:shadow-lg" src="assets/img/google-play-white-button.svg" alt="" /></a> */}
