@@ -61,10 +61,12 @@ function App() {
             <div className="lg:col-span-2 text-base md:text-lg">
               <p>
               Charles has a lobster, but the poor creature does not yet have a name. Let's use a simple Plutus Smart Contract on Cardano to help Charles find a name for his lobster!
-<br/>
-We start with a list of names and a "secret random" number, which we will only reveal in the end. Then we need the Community's help! We need 500 Community members who are willing to help name the lobster by creating transactions which will add their own "random" number (from 1 to 100) to the current total.
-<br/>
-In the end, we will reveal our own "secret random" number, add it to the total provided by the Community, and use the result (after taking the remainder after division by the number of available names) as an index into the list of names to pick the lobster name.
+<br/><br/>
+We start with a list of names and a "secret random" number, which we will only reveal in the end. Then we need the Community's help! 
+<br/><br/>
+We need 500 Community members who are willing to help name the lobster by creating transactions which will add their own "random" number (from 1 to 100) to the current total.
+<br/><br/>
+In the end, we will reveal their own "secret random" number, add it to the total provided by the Community, and use the result (after taking the remainder after division by the number of available names) as an index into the list of names to pick the lobster name.
               </p>
               <p className="pt-2">
                 More info on IOHK's <a className="text-red-300" href="https://github.com/input-output-hk/lobster-challenge" target="_blank" rel="noopener noreferrer">Github</a>.
