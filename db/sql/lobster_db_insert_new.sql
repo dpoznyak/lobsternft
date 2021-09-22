@@ -1,1 +1,1 @@
-insert into lobster (time, lobster_counter, lobster_votes) values('2021.09.21 07:30:00', 14491, 347);
+insert into lobster (time, lobster_counter, lobster_votes) values("#TIME", #LOBSTER_COUNTER, #LOBSTER_VOTES);

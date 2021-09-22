@@ -13,8 +13,8 @@ function App() {
             </div>
             <div className="xl:h-full grid gap-y-8 sm:gap-y-0 sm:gap-x-10 sm:grid-cols-2 mt-32 xl:mt-auto content-center">
               <div className="sm:col-span-1 space-y-3 md:space-y-2 xl:space-y-12">
-                <h1 className="text-4xl sm:text-4xl xl:text-7xl font-semibold">I'm Charles favourite pet and yet without a name</h1>
-                <p className="max-w-sm text-lg md:text-2xl">Please help...!</p>
+                <h1 className="text-4xl sm:text-4xl xl:text-7xl font-semibold">Every lobster should have a name. Would you agree?</h1>
+                <p className="max-w-sm text-lg md:text-2xl">Please help us in giving a name to Charles' crustacean mascot!</p>
                 <div className="space-y-4">
                   {/* <a href="#"><img className="shadow rounded-lg transition duration-200 ease-in-out transform hover:-translate-y-1 hover:shadow-lg" src="assets/img/apple-store-white-button.svg" alt="" /></a>
                   <a href="#"><img className="shadow rounded-lg transition duration-200 ease-in-out transform hover:-translate-y-1 hover:shadow-lg" src="assets/img/google-play-white-button.svg" alt="" /></a> */}
@@ -61,13 +61,15 @@ function App() {
             <div className="lg:col-span-2 text-base md:text-lg">
               <p>
               Charles has a lobster, but the poor creature does not yet have a name. Let's use a simple Plutus Smart Contract on Cardano to help Charles find a name for his lobster!
-<br/>
-We start with a list of names and a "secret random" number, which we will only reveal in the end. Then we need the Community's help! We need 500 Community members who are willing to help name the lobster by creating transactions which will add their own "random" number (from 1 to 100) to the current total.
-<br/>
-In the end, we will reveal our own "secret random" number, add it to the total provided by the Community, and use the result (after taking the remainder after division by the number of available names) as an index into the list of names to pick the lobster name.
+<br/><br/>
+We start with a list of names and a "secret random" number, which we will only reveal in the end. Then we need the Community's help! 
+<br/><br/>
+We need 500 Community members who are willing to help name the lobster by creating transactions which will add their own "random" number (from 1 to 100) to the current total.
+<br/><br/>
+In the end, we will reveal their own "secret random" number, add it to the total provided by the Community, and use the result (after taking the remainder after division by the number of available names) as an index into the list of names to pick the lobster name.
               </p>
               <p className="pt-2">
-                More info on our <a className="text-red-300" href="https://github.com/input-output-hk/lobster-challenge">Github</a>.
+                More info on IOHK's <a className="text-red-300" href="https://github.com/input-output-hk/lobster-challenge" target="_blank" rel="noopener noreferrer">Github</a>.
               </p>
             </div>
           </div>
